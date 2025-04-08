@@ -41,7 +41,7 @@
       // Calculatoin 
       $celsiusValue = ($fahrenheitValue - 32) * 5 / 9;
       $celsiusInput = $celsiusValue . round($celsiusValue, 3);
-      echo(($fahrenheitValue -32)) * 5/9
+      echo "celsius is:". (($fahrenheitValue -32)) * 5/9
       ?>
       <br /> <br>
       <div class="page-content-answer">
