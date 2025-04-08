@@ -16,16 +16,19 @@ body {
 }
 
 .container {
-  margin-left: 10em;
+  margin-left: 10rem;
   display: flex;
+}
+.container-2{
+  margin-left: 5rem;
 }
 
 .formula-tittle {
-  font-size: 2.3rem;
+  font-size: 1.5rem;
 }
 
 .formula {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .dimatoins {

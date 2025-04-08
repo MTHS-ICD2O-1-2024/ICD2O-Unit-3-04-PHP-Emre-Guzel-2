@@ -30,6 +30,8 @@
           <span class="mdl-layout-title">Fahrenheit to celsius calculator </span>
         </div>
       </header>
+      <h2 class="formula-tittle">Formula</h2>
+      <p class="formula">C = (°F - 32) × 5/9</p>
       <h3 class="dimatoins"> Please enter Fahrenheit </h3>
       <form action="answer.php" method="GET">
         <div class="mdl-textfield mdl-js-textfield" id="base-a">
@@ -38,21 +40,14 @@
           <label class="mdl-textfield__label" for="base-a-of-trapizoid"></label>
           <span class="mdl-textfield__error">Input is not a number!</span>
         </div>
-        <h5>=</h5>
-        <div class="mdl-textfield mdl-js-textfield" id="base-a">
-          <p class="celsius">Celsius:</p>
-          <input type="number" class="mdl-textfield__input" type="number" pattern="-?[0-9]*(\.[0-9]+)?" name="celsius">
-          <label class="mdl-textfield__label" for="base-a-of-trapizoid"></label>
-          <span class="mdl-textfield__error">Input is not a number!</span>
-        </div>
         <br>
         <main id="click-me " class="mdl-layout__content">
-          <button id="click" type="submit"
+          <button id="click" type="submit" name="celsius"
             class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
             Calcualte the Celsius
           </button>
         </main>
-        </form>
+      </form>
     </div>
     <br>
     <img class="Calculate" src="images/temperature.png" alt="Tempurature">
