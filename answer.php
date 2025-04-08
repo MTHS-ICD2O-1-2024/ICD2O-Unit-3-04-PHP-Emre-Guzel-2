@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="Volume of right rectangular pyramid  " />
+  <meta name="description" content="Fahrenheit to celsius calculato " />
   <meta name="keywords" content="mths, icd2o" />
   <meta name="author" content="Emre Guzel" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
@@ -18,7 +18,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="css/style.css">
-  <title>Volume of Right Rectangular Pyramid </title>
+  <title>Fahrenheit to celsius calculato </title>
 </head>
 
 <body>
@@ -27,7 +27,7 @@
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">Volume of Right Rectangular Pyramid </span>
+          <span class="mdl-layout-title">Fahrenheit to celsius calculato</span>
         </div>
       </header>
       <main class="mdl-layout__content">
