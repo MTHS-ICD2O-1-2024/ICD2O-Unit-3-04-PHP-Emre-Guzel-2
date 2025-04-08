@@ -52,8 +52,8 @@
           <a href="./index.php">Return ...</a>
         </div>
         <br>
-        <div class="Calculate-2">
-          <img src="./images/volume-of-sphere.png" alt="tempurature">
+        <div class="tempurature">
+          <img src="images/temperature.png" alt="tempurature">
         </div>
       </main>
     </div>
