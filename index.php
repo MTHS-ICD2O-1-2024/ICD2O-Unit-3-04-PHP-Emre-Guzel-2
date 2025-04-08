@@ -47,7 +47,7 @@
         </div>
         <br>
         <main id="click-me " class="mdl-layout__content">
-          <button id="click" type="button" onclick="fahrenheitToCelsiusCalcualotr()"
+          <button id="click" type="submit"
             class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
             Calcualte the Celsius
           </button>

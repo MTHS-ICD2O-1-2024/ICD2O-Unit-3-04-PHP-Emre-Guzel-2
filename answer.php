@@ -34,12 +34,14 @@
       </div>
       <br><br>
       <?php
-      $radiusOfSphere = $_GET["radius-of-sphere"];
-      $volume = (4 / 3) * pi() * pow($radiusOfSphere, 3);
-      echo "If sphere has radius = " . $radiusOfSphere;
-      echo "<br />";
-      echo "<br />";
-      echo "The Volume of the pyramid is: " . round($volume);
+
+      // Setting the varibles
+      $fahrenheitValue = $_GET["fahrenheit"];
+      $celsiusInput = $_GET["celsius"];
+      // Calculatoin 
+      $celsiusValue = ($fahrenheitValue - 32) * 5 / 9;
+      $celsiusInput = $celsiusValue . round($celsiusValue, 3);
+      echo(($fahrenheitValue -32)) * 5/9
       ?>
       <br /> <br>
       <div class="page-content-answer">
