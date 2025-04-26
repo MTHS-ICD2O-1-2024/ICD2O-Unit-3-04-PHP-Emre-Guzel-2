@@ -38,7 +38,7 @@
 
         // Setting the varibles
         $fahrenheitValue = $_GET["fahrenheit"];
-        $celsiusInput = $_GET["celsius"];
+        $celsiusInput = ["celsius"];
         // Calculatoin 
         $celsiusValue = ($fahrenheitValue - 32) * 5 / 9;
         $celsiusInput = round($celsiusValue, 3);
